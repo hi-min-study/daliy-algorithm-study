@@ -3,7 +3,6 @@ class Solution {
     public int solution(int n, int[][] computers) {
         int[] visited = new int[n];
         int answer = 0;
-
         //노드 다 검사
         for(int i = 0; i < computers.length; i++){
             if(visited[i] == 0){
