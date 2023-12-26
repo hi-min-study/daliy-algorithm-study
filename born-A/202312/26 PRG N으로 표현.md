@@ -2,10 +2,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-class Solution {
-    int N = 5;
-    int number = 12;
-    
+class Solution {  
     public int solution(int N, int number) {
         int answer = -1;
         int now = N;
