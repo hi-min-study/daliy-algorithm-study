@@ -1,0 +1,12 @@
+```python
+def solution(routes: list) -> int:
+    answer = 1
+    routes.sort(key=lambda x: x[1])
+    camera = routes[0][1]
+    for start, end in routes[1:]:
+        if camera < start:
+            answer += 1
+            camera = end
+        
+    return answer
+```
