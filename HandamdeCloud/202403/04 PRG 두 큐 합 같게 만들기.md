@@ -31,7 +31,4 @@ def solution(queue1, queue2):
             return -1
 
     return count
-
-
-
 ```
